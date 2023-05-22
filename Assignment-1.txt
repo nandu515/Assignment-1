@@ -1,0 +1,55 @@
+Q1.creating the variables
+var1="string"
+L=["asdf",1,2,2.5,';lkj']
+f=8.2
+Tuple=(7,5,'knk',1.43)
+print(var1,L,f,Tuple)
+
+
+Q2. Given are some following variables containing data:
+(i) var1 = ‘ ‘                             -------> string
+(ii) var2 = ‘[ DS , ML , Python]’		   -------> string
+(iii) var3 = [ ‘DS’ , ’ML’ , ‘Python’ ]    -------> List
+(iv) var4 = 1.							   -------> int
+
+Q3. Explain the use of the following operators using an example:
+(i) /     -------> Division operator is used to divied the operands, here we'll get quotient with the float valuse Ex:2.555
+(ii) %		------->modulos operator is used to get the reminder of the division
+(iii) //	-------> floor division is a operator used to get the Quotient of the division without the decimals after the .(point) Ex:if the qoutient is 3.33333 we'll get only 3.
+(iv) **		------->Exponentiation is used to get the power of the value.
+
+Q4.creating list and printing
+L=["asdf",1,2,2.5,';lkj','name',58,62,101,5+5j]
+for list in L:
+    print(list,type(list
+	
+Q5.Using a while loop, verify if the number A is purely divisible by number B and if so then how many
+times it can be divisible.
+A = 16
+B = 2
+count = 0
+while A % B == 0:
+    A = A // B
+    count += 1
+if count > 0:
+    print(A,"is purely divisible by",B,"and can be divided",count,"times.")
+else:
+    print(A,"is not purely divisible by",B)
+	
+
+Q6.Create a list containing 25 int type data. Using for loop and if-else condition print if the element is
+divisible by 3 or not.
+List=[11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]
+for i in List:
+    if i%3==0:
+        print(i,"is divisible by 3")
+    else:
+        print(i,"is not divisible by 3")
+	
+	
+
+Q7. What do you understand about mutable and immutable data types? Give examples for both showing
+this property.
+
+mutable means we can modify the value after creating aslo. Ex: list
+immutable means we cannot modifhy the value once created. Ex string
